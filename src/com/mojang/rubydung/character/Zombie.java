@@ -1,0 +1,1 @@
+//nexachy sami pishite eto govno ya zaibalsa
