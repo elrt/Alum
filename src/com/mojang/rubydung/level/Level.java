@@ -76,6 +76,11 @@ public class Level {
 							break;
 						}
 					}
+
+					if (clear && random.nextInt(200) < 1) {
+						generateTree(x, groundY, z);
+						treeCount++;
+					}
 				}
 			}
 		}

@@ -640,8 +640,8 @@ public class RubyDung implements Runnable {
 		if (font != null) {
 			String hpText = player.health + "";
 			int textWidth = (int)(hpText.length() * 8 * 0.5f);
-			int textX = x + (barWidth - textWidth) / 2;
-			int textY = y + (barHeight - 10) / 2;
+			int textX = x + (barWidth - textWidth) / 2 - 10;
+			int textY = y + (barHeight - 13) / 2;
 			font.draw(hpText, textX, textY, 0.5f, 1.0f, 1.0f, 1.0f);
 		}
 	}
